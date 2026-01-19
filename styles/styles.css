@@ -1,8 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 
-.inter-{
+.inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+/* header section */
+
+/* nav section */
+nav{
+    padding: 16px 200px;
+    justify-content: space-between;
+    background-color: #412567;
+    align-items: center;
+}
+
+.nav-item{
+    list-style: none;
+    color: #ffffff;
+    gap: 2rem;
+}
+nav h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.nav-title{
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(to right,#F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-links{
+    gap: 2rem;
+}
+.nav-link{
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav-title{
+    /* background: linear-gradient(to left #F7E93F 0%, #FB09B4 51%, #9100F8 100%); */
+}
+.nav-btn{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 90px;
+    background: linear-gradient(to right,#F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+/* Hero Section */
