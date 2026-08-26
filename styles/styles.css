@@ -329,6 +329,76 @@ p {
   font-weight: 500;
 }
 
+/* meet-host */
+
+.meet-host {
+  text-align: center;
+  padding: 0 20px 80px;
+  background-color: #1a0e2b;
+}
+
+.host-card {
+  display: flex;
+  align-items: center;
+  background-color: #2a1843;
+  border-radius: 20px;
+  padding: 30px;
+  gap: 30px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.host-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(255, 254, 255, 0.2);
+}
+
+.host-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.host-info h2 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.host-info p {
+  font-size: 0.95em;
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons .icon {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid #ffffff46;
+  background-color: transparent;
+  color: linergrient(to right,#F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-icons .icon:hover {
+  background-color: #feffff60;
+  color: #000000;
+}
+
 /* Small Devices Responcive */
 @media (max-width: 576px) {
     nav{
